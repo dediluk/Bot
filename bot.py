@@ -8,8 +8,8 @@ import re
 
 app = Flask(__name__)
 sslify = SSLify(app)
-TG_TOKEN = "936123433:AAH2LV58zQdKdgIJhB3jZN9HpQYAoCqcPrQ"
-URL = "https://api.telegram.org/bot936123433:AAH2LV58zQdKdgIJhB3jZN9HpQYAoCqcPrQ/"
+TG_TOKEN = "your token"
+URL = "https://api.telegram.org/bot{}/".format(TG_TOKEN)
 
 
 # def get_rate():
